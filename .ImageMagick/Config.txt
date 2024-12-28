@@ -1,13 +1,13 @@
 [STATIC]
 
 [DIRECTORIES]
-..\jpeg-turbo
+..\jpeg-turbo\src
 
 [DEFINES]
 BITS_IN_JSAMPLE=16
 
 [INCLUDES]
-jpeg-turbo->.
+jpeg-turbo->src
 
 [EXCLUDES]
 cdjpeg.c
